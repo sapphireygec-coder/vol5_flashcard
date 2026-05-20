@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>英熟語フラッシュカード — Sapphire ONLINE Studies</title>
+<link rel="stylesheet" href="https://unpkg.com/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  background:#0f1117;color:#e8eaf0;min-height:100vh;}
+.wrap{max-width:720px;margin:0 auto;padding:2.5rem 1.2rem 4rem;}
+.header{text-align:center;margin-bottom:2.5rem;padding-bottom:1.5rem;
+  border-bottom:0.5px solid #2e3245;}
+.header h1{font-size:22px;font-weight:500;color:#e8eaf0;margin-bottom:.5rem;}
+.header p{font-size:14px;color:#7a82a0;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;}
+.card{background:#1a1d27;border:0.5px solid #2e3245;border-radius:12px;
+  padding:1.25rem;display:flex;flex-direction:column;gap:10px;}
+.card.available{border-color:#3a4060;}
+.card.coming{opacity:0.5;}
+.vol-badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;
+  font-weight:500;padding:4px 10px;border-radius:8px;
+  background:#22263a;color:#7a82a0;width:fit-content;}
+.vol-badge.ready{background:#0d1f35;color:#64b5f6;}
+.card-title{font-size:16px;font-weight:500;color:#e8eaf0;}
+.card-range{font-size:13px;color:#7a82a0;}
+.card-status{font-size:12px;color:#7a82a0;display:flex;align-items:center;gap:4px;}
+.card-status.ok{color:#4caf7d;}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;
+  border-radius:8px;border:0.5px solid #3a4060;background:transparent;
+  font-size:13px;color:#e8eaf0;cursor:pointer;text-decoration:none;
+  margin-top:auto;transition:background .15s;}
+.btn:hover{background:#22263a;}
+.btn.primary{background:#0d1f35;color:#64b5f6;border-color:#1c3a5e;}
+.btn.primary:hover{background:#152033;}
+.footer{text-align:center;margin-top:2.5rem;padding-top:1.5rem;
+  border-top:0.5px solid #2e3245;font-size:12px;color:#7a82a0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <h1>英熟語フラッシュカード</h1>
+    <p>英熟語ターゲット　4技能対応トレーニング　A・B・C・D 各形式</p>
+  </div>
+  <div class="grid">
+    <div class="card coming">
+      <div class="vol-badge"><i class="ti ti-book"></i>Vol.1</div>
+      <div class="card-title">英熟語ターゲット Vol.1</div>
+      <div class="card-range">文 1〜36</div>
+      <div class="card-status"><i class="ti ti-clock"></i>準備中</div>
+    </div>
+    <div class="card available">
+      <div class="vol-badge ready"><i class="ti ti-book"></i>Vol.2</div>
+      <div class="card-title">英熟語ターゲット Vol.2</div>
+      <div class="card-range">文 37〜72（A・B・C・D 各形式）</div>
+      <div class="card-status ok"><i class="ti ti-check"></i>公開中・音声付き</div>
+      <a class="btn primary" href="eijukugo_flashcard.html">学習を始める <i class="ti ti-arrow-right"></i></a>
+    </div>
+    <div class="card coming">
+      <div class="vol-badge"><i class="ti ti-book"></i>Vol.3</div>
+      <div class="card-title">英熟語ターゲット Vol.3</div>
+      <div class="card-range">文 73〜108</div>
+      <div class="card-status"><i class="ti ti-clock"></i>準備中</div>
+    </div>
+    <div class="card coming">
+      <div class="vol-badge"><i class="ti ti-book"></i>Vol.4</div>
+      <div class="card-title">英熟語ターゲット Vol.4</div>
+      <div class="card-range">文 109〜143</div>
+      <div class="card-status"><i class="ti ti-clock"></i>準備中</div>
+    </div>
+    <div class="card available">
+      <div class="vol-badge ready"><i class="ti ti-book"></i>Vol.5</div>
+      <div class="card-title">英熟語ターゲット Vol.5</div>
+      <div class="card-range">精選80文より20文（A・B・C・D 各形式）</div>
+      <div class="card-status ok"><i class="ti ti-check"></i>公開中・音声付き</div>
+      <a class="btn primary" href="eijukugo_vol5.html">学習を始める <i class="ti ti-arrow-right"></i></a>
+    </div>
+  </div>
+  <div class="footer">© 2026 Sapphire ONLINE Studies English Project</div>
+</div>
+</body>
+</html>
